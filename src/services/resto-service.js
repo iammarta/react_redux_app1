@@ -1,5 +1,5 @@
 export default class RestoService{
-    _apiBase = 'https://iammarta.github.io/react_redux_app1/public/index.html';
+    _apiBase = 'http://localhost:3000';
 
     async getResource(url) {
         const res = await fetch(`${this._apiBase}${url}`);
